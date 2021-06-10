@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    height: 6rem;
+    position: relative;
+    transform: translateY(-927px);
+    margin-left: 14px;
+}
+
+header{
+    height: 8rem;
+    background-image: url(../headerporra2.jpg);
+}
+/*.funfo img{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 8rem;
+    width: 96rem;
+    
+}*/
+.logonome img{
+    width: 30rem;
+    position: relative;
+    transform: translateY(-839px);
+    margin-left: 32.5rem;
+
+}
+.avatar img{
+    border-radius: 25000px;
+    height: 0rem;
+    /**border: 10px solid #8c3d17;**/
+    margin-left: 60rem;
+    position: relative;
+    transform: translateY(-5rem);
+}
+body{
+    background-color: #eee1cf;
+}
+
+.container{
+    margin-bottom: 2rem;
+    position: relative;
+    top: 1.5rem;
+    background-color: white;
+    padding: 2rem 0rem;
+    width: 28rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#botoes :hover{
+    background-color: #f1f1f1
+}
+.container .whatsfoto{
+    width: 3rem;
+    position: relative;
+    transform: translateX(-0.6rem);
+}
+.container .whatsspan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 0.7rem;
+    color: #8c3d17;
+}
+.container .whats{
+    text-decoration: none;
+}
+
+.container .instafoto{
+    width: 3rem;
+    transform: translateX(-1.6rem);
+}
+.container .instaspan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 0.7rem;
+    color: #8c3d17;
+}
+.container .insta{
+    text-decoration: none;
+}
+
+.container .facefoto{
+    width: 3rem;
+    transform: translateX(-1.6rem);
+}
+.container .facespan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 0.7rem;
+    color: #8c3d17;
+}
+.container .face{
+    text-decoration: none;
+}
+.container .telefoto{
+    width: 3rem;
+    position: relative;
+    transform: translateX(-0.6rem);
+}
+.container .telespan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 0.7rem;
+    color: #8c3d17;
+}
+.container .tele{
+    text-decoration: none;
+}
+.container .mapafoto{
+    width: 3rem;
+    position: relative;
+    transform: translateX(-0.6rem);
+}
+.container .mapaspan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 0.7rem;
+    color: #8c3d17;
+}
+.container .mapa{
+    text-decoration: none;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+
+}
+
+@media(min-width:800px){
+    html{
+        
+    }
+    #botoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: auto;
+    }    
+}
