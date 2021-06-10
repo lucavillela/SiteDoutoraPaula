@@ -40,6 +40,7 @@ header{
 }
 body{
     background-color: #eee1cf;
+    width: 100%;
 }
 
 .container{
@@ -134,18 +135,71 @@ body{
     justify-content: center;
     align-items: center;
     overflow-x: auto;
-
 }
 
-@media(min-width:800px){
-    html{
-        
-    }
+@media(max-width:800px){
     #botoes{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        overflow-x: auto;
-    }    
-}
+        
+    }
+    .container{
+      zoom: 80%;
+      padding: 0.5rem 0rem;
+      width: 21rem;
+      justify-content: center;
+    }
+    .container .whatsfoto{
+    width: 3rem;
+    position: relative;
+    transform: translateX(-0.3rem);
+    }
+    .container .telefoto{
+    width: 3rem;
+    position: relative;
+    transform: translateX(-0.6rem);
+    }
+    .container .mapaspan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 1rem;
+    color: #8c3d17;
+    }
+    .container .whatsspan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 1rem;
+    color: #8c3d17;
+    }
+    .container .telespan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 1rem;
+    color: #8c3d17;
+    }
+    .container .instaspan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 1rem;
+    color: #8c3d17;
+    }
+    .container .facespan{
+    font-size: 1.2rem;
+    position: relative;
+    top: 1rem;
+    color: #8c3d17;
+    }
+    .logo img{
+    height: 6rem;
+    position: relative;
+    transform: translateY(-690px);
+    margin-left: 14px;
+    }
+    html, body {
+    background-color: #eee1cf;
+    overflow-x: hidden;
+    }
+    
+}    
